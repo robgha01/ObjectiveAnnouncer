@@ -1,0 +1,26 @@
+## Interface: 30300
+## Title: Objective Announcer
+## Version: 7.3.0
+## Notes: Announces Questing Information to Chat
+## Author: Bantou & Eincrou, Areasis(backporter)
+## SavedVariables: ObjectiveAnnouncerDB
+## X-credits: Created by Bantou. Additional development by Eincrou.
+## X-Category: Quest
+
+## DefaultState: enabled
+## LoadOnDemand: 0
+
+## LoadManagers: AddonLoader
+## X-LoadOn-Always: delayed
+
+#@no-lib-strip@
+Embeds.xml
+#@end-no-lib-strip@
+
+Locales.xml
+
+Libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+
+ObjectiveAnnouncer.lua
+Config.lua
+Broker.lua
